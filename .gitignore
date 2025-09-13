@@ -1,0 +1,22 @@
+# Archivos y carpetas de WordPress a ignorar
+wp-config.php
+wp-admin/
+wp-includes/
+index.php
+xmlrpc.php
+license.txt
+readme.html
+
+# Base de datos
+*.sql
+
+# Carpetas de Backups, Logs y Media
+updraft/
+uploads/
+yaymail-logs/
+wp-content/cache/
+
+# Archivos de Sistema y dependencias
+.DS_Store
+node_modules/
+
