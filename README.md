@@ -2,6 +2,11 @@
 
 **➡️ [View Live Site](https://thewolfhoundexperience.com/) ⬅️**
 
+## Website Screenshots
+
+![Website Screenshots](image-1.png)
+![Website Screenshots](image-2.png)
+
 ## 📖 Project Description
 
 This repository contains the source code for the official website of "The Wolfhound Experience," a unique tourism and adventure business in Ireland that offers visitors the chance to connect with Irish Wolfhounds.
