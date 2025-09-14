@@ -4,8 +4,8 @@
 
 ## Website Screenshots
 
-![Website Screenshots](image-1.png)
-![Website Screenshots](image-2.png)
+![Website Screenshots](assets/image-1.png)
+![Website Screenshots](assets/image-2.png)
 
 ## 📖 Project Description
 
