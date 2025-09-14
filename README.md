@@ -1,36 +1,39 @@
-# Sitio Web en WordPress: The Wolfhound Experience
+# The Wolfhound Experience - WordPress Website
 
-**➡️ [Ver el sitio en vivo](https://thewolfhoundexperience.com/) ⬅️**
+**➡️ [View Live Site](https://thewolfhoundexperience.com/) ⬅️**
 
-## 📖 Descripción del Proyecto
+## 📖 Project Description
 
-Este repositorio contiene el código fuente del sitio web para "The Wolfhound Experience", un negocio de turismo y experiencias en Irlanda que ofrece a los visitantes la oportunidad de interactuar con lebreles irlandeses.
+This repository contains the source code for the official website of "The Wolfhound Experience," a unique tourism and adventure business in Ireland that offers visitors the chance to connect with Irish Wolfhounds.
 
-El sitio web sirve como la principal plataforma de marketing y reservas, diseñado para capturar la esencia de la experiencia a través de un diseño visual atractivo y una navegación intuitiva.
+The website serves as the primary marketing and booking platform, designed to capture the essence of the experience through a visually engaging design and an intuitive user interface.
 
-## ✨ Características Principales
+## ✨ Key Features
 
-* **Diseño Personalizado y Responsivo:** Un tema a medida desarrollado para asegurar una experiencia de usuario óptima en cualquier dispositivo (móvil, tablet y escritorio).
-* **Sistema de Contacto y Reservas:** Formulario de contacto integrado para facilitar las consultas y la gestión de futuras reservas.
-* **Integración con Pasarela de Pagos (Stripe):** El código incluye la integración con la API de Stripe para gestionar transacciones de forma segura (las claves secretas no están incluidas en este repositorio por seguridad).
-* **Galería de Imágenes:** Secciones visuales para mostrar la experiencia a través de fotografías de alta calidad.
-* **Optimización SEO:** Implementación de buenas prácticas de SEO para mejorar el posicionamiento en motores de búsqueda.
+* **Custom & Responsive Design:** A bespoke WordPress theme built from the ground up to ensure an optimal user experience across all devices (mobile, tablet, and desktop).
+* **Booking & Contact System:** Integrated forms and workflows to facilitate user inquiries and manage future bookings.
+* **Third-Party API Integrations:** Securely connects with external services to enhance functionality. The primary integration is with the **Stripe API** for payment processing.
+* **Automated Workflows:** Features custom-built PHP scripts to automate key business processes and backend tasks, reducing manual administration.
+* **Image Gallery:** Visually-driven sections to showcase the experience through high-quality photography.
+* **SEO Best Practices:** Built with search engine optimization in mind to improve visibility and ranking on search engines.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tech Stack & Key Integrations
 
 * **CMS:** WordPress
-* **Tema:** Tema personalizado desarrollado con PHP, HTML5, CSS3 y JavaScript.
-* **Integraciones:**
-    * Stripe API para pagos.
-    * Google Fonts para tipografía.
-* **Plugins Notables:** El proyecto utiliza plugins para la gestión de formularios de contacto, optimización de rendimiento (caching) y SEO.
+* **Theme:** Custom theme developed with PHP, HTML5, CSS3, and JavaScript.
+* **Key Technologies:**
+    * Custom PHP scripts for process automation.
+    * Stripe API for secure payment processing.
+    * Node.js/NPM for frontend asset bundling and management.
+* **Notable Plugins:** The project leverages key plugins for contact form management, performance caching, and SEO.
 
-## 🚀 Instalación y Configuración
+## 🚀 Local Setup & Configuration
 
-Este repositorio contiene principalmente el tema y los plugins personalizados. Para ejecutar este proyecto localmente:
+This repository contains the theme and functional plugins for the project. To run this project locally:
 
-1.  Clonar el repositorio: `git clone https://github.com/eppursimuove9/the-wolfhoundexperience-com.git`
-2.  Configurar un entorno local de WordPress (ej. XAMPP, MAMP, Local by Flywheel).
-3.  Añadir los temas y plugins de este repositorio a la instalación de WordPress.
-4.  **Importante:** La base de datos no se incluye por razones de seguridad. Se requerirá una importación manual de una copia de seguridad.
-5.  Las claves de API (como la de Stripe) deben ser configuradas en un archivo `wp-config.php` o `wp-secrets.php` (no incluido en este repositorio).
+1.  **Clone the repository:**
+    `git clone https://github.com/eppursimuove9/the-wolfhoundexperience-com.git`
+2.  **Set up a local WordPress environment** (e.g., XAMPP, MAMP, Local by Flywheel).
+3.  **Add the theme and plugins** from this repository to your local WordPress installation's `wp-content` directory.
+4.  **Database:** The production database is not included in this repository for security reasons. A manual import from a backup is required to populate the content.
+5.  **Secrets & API Keys:** All API keys (like the Stripe Secret Key) must be configured in a local, untracked file (e.g., `wp-config.php` or a separate `wp-secrets.php`). These keys are not stored in the repository.
